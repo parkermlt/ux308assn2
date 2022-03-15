@@ -1,25 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="manifest" href="/magic.webmanifest">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-    <meta name="theme-color" content="white" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Magic 8 Ball">
-    <meta name="msapplication-TileImage" content="/img/ms144.png">
-    <meta name="msapplication-TileColor" content="#FFFFFF">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery / Materialize CSS + JavaScript imports -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <style>
+        #container {
+            padding-left: 300px;
+        }
+
+        #content {
+            padding: 20px;
+        }
+
+        @media only screen and (max-width : 992px) {
+            #container {
+                padding-left: 0px;
+            }
+        }
+    </style>
 
 </head>
 
 <body>
-    <form id="magic8ball">
-        <h1>Magic 8 ball</h1>
-        <h2>the 8 ball knows</h2>
-        <p>Ask me anything I will answer.</p>
-        <input id="question" placeholder="enter a question" />
-        <button type="submit">Ask</button>
-        <p id="answer">If you had asked The answer would be here</p>
-    </form>
-    <script src="js/main.js" type="module"></script>
+    <div id="container">
+
+        <div id="menu">
+
+            <ul id="slide-out" class="side-nav fixed show-on-large-only">
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li class="no-padding">
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li><a href="#!">First</a></li>
+                                    <li><a href="#!">Second</a></li>
+                                    <li><a href="#!">Third</a></li>
+                                    <li><a href="#!">Fourth</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <a href="#" data-activates="slide-out" class="button-collapse hide-on-large-only"><i
+                    class="material-icons">menu</i></a>
+
+            <h3>Labsite</h3>
+
+            <p>A Rundown of some bits of me.</p>
+        <section id="Education">
+        <h2>Education</h2>
+        <br/>
+        <h3>Wilfrid Laurier University</h3>
+        <br/>
+        <img src="laurier.png" alt="laurier" width="500" height="600"> 
+        <br/>
+        <h5>Honors BDes User Experience Design 2018-2023</h5>
+        <h6>> Focus on inclusive and equitable design</h6>
+        <h6>> Fundamentals of UI Design and interface legibility</h6>
+        <h6>> Interaction design user psychology</h6>
+        <h6>> Design sprints to tackle user needs</h6>
+        <h6>> Focus on the User, and knowing the End User</h6>
+        <br/>
+        <br/>
+        <h3>Fanshawe College</h3>
+        <br/>
+        <img src="fanshawe_logo.jpg" alt="fanlogo" width="500" height="600"> 
+        <br/>
+        <h5>Associates Degrees in Finance and Accounting 2011-2014</h5>
+        <h6>> Knowing the Business cycle</h6>
+        <h6>> Understanding business and personal finance, alongside credit</h6>
+        <h6>> Understanding the user/consumer and meeting their needs</h6>
+        <h6>> Having a firm understanding of organization structure </h6>
+        <h6>> Applying cost benefit analysis to future endeavors</h6>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+     
+
+        </section>
+        <section id="Experience">
+        <h2>Experience</h2>
+        <br/>
+        <h3>Hanning House</h3>
+        <br/>
+        <br/>
+        <h5>Elderly Care aide Oct. 2019-present</h5>
+        <h6>> Speaking to and understanding the needs of the elderly</h6>
+        <h6>> Helping with physical care</h6>
+        <h6>> Daily shopping needs </h6>
+        <h6>> Medication pickup, hair appointment shuttling, doctors appointment shuttling</h6>
+        <h6>> Meeting emotional needs through interaction and engagement</h6>
+        <br/>
+        <h3>Napa Autoparts</h3>
+        <br/>
+        <h5>Warehouse order picker and runner. Sept. 2018-Sept. 2019</h5>
+        <h6>> Unpacking large orders and placing them into the correct sections of the warehouse</h6>
+        <h6>> Running parts from the warehouse to the store on location</h6>
+        <h6>> Wrapping pallet orders for distribution</h6>
+        <h6>> Unsuring a clean and clear environment for fellow workers and forklifts</h6>
+        <h6>> Alerting management to any hazard or damage to racking or chemicals.</h6>
+        <br/>
+        <br/>
+        <br/>
+        <H3>Other, work in progress, self decelopment.</H3>
+        <br/>
+        <br/>
+        <h5>The forever goal of becoming a better self. March 31, 1991 - Present</h5>
+        <h6>> Aim towards tangible small goals in design and psychology</h6>
+        <h6>> Complete self projects in UX to prove my skills, none of which are visual design skills.</h6>
+        <h6>> Add tools to my repetoir to aid in my UX path, like figma.</h6>
+        <h6>> Question all that exists, aim for improvement</h6>
+        <h6>> Be kind.</h6>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>    
+        </section>
+
+        </div>
+
+    </div>
+    <script>
+        $('.button-collapse').sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'left', // Choose the horizontal origin
+            closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+
+
+    </script>
 </body>
+
+</html>
